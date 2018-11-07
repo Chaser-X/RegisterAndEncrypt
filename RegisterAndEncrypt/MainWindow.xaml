@@ -1,12 +1,17 @@
-﻿<Window x:Class="RegisterAndEncrypt.MainWindow"
+﻿<metro:MetroWindow x:Class="RegisterAndEncrypt.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RegisterAndEncrypt"
+        xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="注册机" Height="350" Width="525">
     <Grid>
-        
+        <StackPanel>
+            <Button Content="软件注册" HorizontalAlignment="Left" Margin="135,31,0,0" VerticalAlignment="Top" Width="229" Click="Button_Click" Height="55"/>
+            <Button Content="注册卸载" HorizontalAlignment="Left" Margin="135,31,0,0" VerticalAlignment="Top" Width="229" Click="Button_Click_1" Height="55"/>
+            <Button Content="注册验证" HorizontalAlignment="Left" Margin="135,31,0,0" VerticalAlignment="Top" Width="229" Click="Button_Click_2" Height="55"/>
+        </StackPanel>
     </Grid>
-</Window>
+</metro:MetroWindow>
